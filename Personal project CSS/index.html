@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Eneh Chinonso</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Chinonso</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">ENEH CHINONSO</span></h1>
+                <p class="subtitle">AN ASPIRING FULL-STACK DEVELOPER</p>
+                <div>
+                    <a href="#projects" class="hero-btn">View My Work</a>
+                    <a href="#cv" class="hero-btn">Download CV</a>
+                </div>
+                <div class="hero-image">
+                    <img src="image/file_0000000013087243b1ab39a9a497b4ab.png" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2>ABOUT ME</h2>
+            <div class="about-image">
+                <img src="image/file_000000007f30720a8c7e1d70f47d77e5 (1).png" alt="Working on a laptop">
+            </div>
+            <div>
+                <h2>My Interest in Coding</h2>
+
+                <p>I am a Full-Stack Developer driven by the challenge of bridging the gap between elegant design and high-performance logic. With a passion for crafting seamless user experiences and writing clean, efficient code, I am dedicated to building applications that not only look great but also function flawlessly.
+
+                I have a strong foundation in both frontend and backend technologies, with a focus on creating efficient and scalable applications.</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="skills" class="skill-section">
+        <div class="skill-content">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <h3 >HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <h3>Tailwind CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-git-plain colored"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-figma-plain colored"></i>
+                    <h3>Github</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="devicon-vscode-plain colored"></i>
+                    <h3>VS Code</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="../PERSONAL PROJECT 2/image/file_0000000013087243b1ab39a9a497b4ab.png" alt="Project One">
+                    <div class="project-overlay">
+                        <h3>T-Tech Landing Page</h3>
+                        <p>A responsive landing page featuring a complex multi-level navigation bar and hero section.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS Grid</span>
+                            <span>Flexbox</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="view-btn">Live Demo</a>
+                            <a href="#" class="github-btn"><i class="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../PERSONAL PROJECT 2/image/clinic.jpg.jpg" alt="Project Two">
+                    <div class="project-overlay">
+                        <h3>Interactive Image Gallery</h3>
+                        <p>A grid-based gallery with custom CSS hover animations and grayscale filters.</p>
+                        <div class="tech-tags">
+                            <span>CSS Animations</span>
+                            <span>Semantic HTML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="view-btn">Live Demo</a>
+                            <a href="#" class="github-btn"><i class="devicon-github-original"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.</p>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +234 8066830239</p>
+                <p><strong>Email:</strong> <a href="mailto:chinonsoemmanuella26@gmail.com">chinonsoemmanuella26@gmail.com</a></p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Eneh Chinonso. 2026 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
